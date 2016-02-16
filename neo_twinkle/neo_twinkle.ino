@@ -16,8 +16,8 @@ void loop() {
     int randr = random(0,(25*bright));
     int randg = random(0,(25*bright)); 
     int randb = random(0,(25*bright));
-    int randi = random(1,strip.numPixels());
-    int randii = random(1,strip.numPixels());
+    int randi = random(0,strip.numPixels());
+    int randii = random(0,strip.numPixels());
       strip.setPixelColor(randi, randr, randr, randr);
      // strip.setPixelColor(i-1, strip.Color(r,g,(b-150)));
      // strip.setPixelColor(i-2, strip.Color(r,g,(b-200)));
